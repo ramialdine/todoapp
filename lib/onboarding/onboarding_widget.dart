@@ -76,7 +76,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                               Text(
                                 'Profile',
                                 style: FlutterFlowTheme.of(context)
-                                    .headlineLarge
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Inter Tight',
                                       letterSpacing: 0.0,
