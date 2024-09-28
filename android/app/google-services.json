@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959986519980",
+    "project_id": "to-do-crs7je",
+    "storage_bucket": "to-do-crs7je.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959986519980:android:0a281e6d8409b13d1f7409",
+        "android_client_info": {
+          "package_name": "com.mycompany.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE7oxom3wa3OyxEc2ZhDRdw60stz5mFKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
