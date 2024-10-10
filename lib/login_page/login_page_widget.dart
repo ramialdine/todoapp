@@ -818,6 +818,24 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                     createdTime: getCurrentTimestamp,
                                   ));
 
+                              await showDialog(
+                                context: context,
+                                builder: (alertDialogContext) {
+                                  return AlertDialog(
+                                    title: const Text('Thank You!'),
+                                    content: const Text(
+                                        'Thank you for creating an account, please check your email for confirmation.'),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(alertDialogContext),
+                                        child: const Text('Ok'),
+                                      ),
+                                    ],
+                                  );
+                                },
+                              );
+
                               context.goNamedAuth(
                                   'onboarding', context.mounted);
                             },
