@@ -117,6 +117,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ParamType.Document,
             ),
           ),
+        ),
+        FFRoute(
+          name: 'checkYourEmail',
+          path: '/checkYourEmail',
+          builder: (context, params) => const CheckYourEmailWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
